@@ -1,4 +1,4 @@
--- Apex Orbit V3 Mobile - Delta Compatible
+--  shadow beta Mobile - Delta Compatible
 -- Two column layout matching original screenshot
 -- Auto save/load, no camera hooks
 local Pl=game:GetService("Players")
@@ -685,4 +685,4 @@ task.defer(function()
     if lod()then upSt();if C.VE then startVoid()end;if C.OE then startOrbit()end;if C.SE then apSp()end;if C.IJ then stIJ()end;if C.NC then stNC()end;if C.LG then apGrv()end;if C.AO then stAO()end;print("[ApexV3] Auto-loaded")end
 end)
 
-print("[Apex Orbit V3] Loaded - tap Apex V3")
+print("[Shadow beta] Loaded - tap shadow beta ")
