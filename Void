@@ -657,10 +657,10 @@ end)
 mBtn(5,"Reset Defaults",function()C.VE=false;C.OE=false;stopVoid();stopOrbit();upSt()end)
 -- Info labels
 local il=Instance.new("TextLabel",tPs[5]);il.Size=UDim2.new(1,-8,0,14);il.Position=UDim2.new(0,4,0,math.max(lY[5],rY[5]))
-il.BackgroundTransparency=1;il.Text="✅ Auto-saves every setting change";il.TextColor3=Color3.fromRGB(0,200,80);il.Font=Enum.Font.Gotham;il.TextSize=10;il.TextXAlignment=Enum.TextXAlignment.Left;il.ZIndex=6
+il.BackgroundTransparency=1;il.Text=" Auto-saves every setting change";il.TextColor3=Color3.fromRGB(0,200,80);il.Font=Enum.Font.Gotham;il.TextSize=10;il.TextXAlignment=Enum.TextXAlignment.Left;il.ZIndex=6
 lY[5]=lY[5]+16;rY[5]=rY[5]+16
 local il2=Instance.new("TextLabel",tPs[5]);il2.Size=UDim2.new(1,-8,0,14);il2.Position=UDim2.new(0,4,0,math.max(lY[5],rY[5]))
-il2.BackgroundTransparency=1;il2.Text="✅ Auto-loads on every script run";il2.TextColor3=Color3.fromRGB(0,200,80);il2.Font=Enum.Font.Gotham;il2.TextSize=10;il2.TextXAlignment=Enum.TextXAlignment.Left;il2.ZIndex=6
+il2.BackgroundTransparency=1;il2.Text=" Auto-loads on every script run";il2.TextColor3=Color3.fromRGB(0,200,80);il2.Font=Enum.Font.Gotham;il2.TextSize=10;il2.TextXAlignment=Enum.TextXAlignment.Left;il2.ZIndex=6
 lY[5]=lY[5]+16;rY[5]=rY[5]+16
 local il3=Instance.new("TextLabel",tPs[5]);il3.Size=UDim2.new(1,-8,0,14);il3.Position=UDim2.new(0,4,0,math.max(lY[5],rY[5]))
 il3.BackgroundTransparency=1;il3.Text="File: ApexV3.txt";il3.TextColor3=SUB;il3.Font=Enum.Font.Gotham;il3.TextSize=10;il3.TextXAlignment=Enum.TextXAlignment.Left;il3.ZIndex=6
